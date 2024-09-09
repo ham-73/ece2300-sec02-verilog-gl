@@ -38,7 +38,7 @@ module Top();
     // hardware design is doing.
 
     $dumpfile("PairTripleDetector_adhoc_test.vcd");
-    $dumpvars;
+    $dumpvars();
 
     // Set input values for all input ports. Then wait 10 units of time.
     // Then we display all of the input and output values. We do this
